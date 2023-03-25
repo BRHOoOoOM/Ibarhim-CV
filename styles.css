@@ -87,7 +87,8 @@ a:hover{
     line-height: 2;
 }
 .middle-container{
-    margin:100px;
+    margin:10px;
+    margin-bottom: 100px;
 }
 hr{
     border: dotted 6px #E4F9F5;
@@ -120,6 +121,7 @@ hr{
     text-shadow: 1px 1px 0px rgba(5, 115, 245, 1);
     background:linear-gradient(rgba(17, 205, 212, 1), rgba(17, 153, 158, 1));
     padding:8px;
+    
   }
   
   .buttonClass:hover {
@@ -128,7 +130,7 @@ hr{
                 
 .copyright{
     color: #EAF6F6;
-    font-size:0.75rem;
+    font-size:0.55rem;
     padding:20px 0;
 }            
                       
