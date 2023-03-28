@@ -3,21 +3,31 @@
         <meta charset="utf-8">
         <title>Contact Me</title>
         <link rel="stylesheet" href="styles.css">
-
     </head>
     <body>
-        <h2 class="Contact-Details">My Contact Details</h2>
-            <p>My Number: 00967717271363</p>
-            <p>My Email: ibrahim.python.test@gmail.com</p>
-        <hr>
-        <form action="mailto:ibrahim.python.test@gmail.com" method="post" enctype="text/plain">
-            <label>Your Name: </label>
-            <input type="text" name="Your Name: " value=""><br>
-            <label>Your Email: </label>
-            <input type="email" name="Your Email: " value=""><br>
-            <label>Your Message: </label><br>
-            <textarea name="Your Message" rows="8" cols="40"></textarea><br>
-            <input type="submit" name="">
-        </form>
+      </form>
+      <div class="container">
+        <div style="text-align:center">
+          <h2>Contact Me</h2>
+          <br>
+          <p>My Numbers: 00967717271363  |   00967738447859</p>
+          <p>My Email: ibrahim.python.test@gmail.com</p>
+        </div>
+        <div class="row">
+          <div class="column">
+          </div>
+          <div class="column">
+            <form action="mailto:ibrahim.python.test@gmail.com" method="post" enctype="text/plain">
+              <label for="fname">Name</label>
+              <input type="text" id="fname" name="name" placeholder="Your name..">
+              <label for="lname">Email</label>
+              <input type="text" id="lname" name="email" placeholder="Your email..">
+              <label for="subject">Subject</label>
+              <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+              <input type="submit" value="Submit">
+            </form>
+          </div>
+        </div>
+      </div>
     </body>
 </html>
